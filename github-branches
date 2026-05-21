@@ -1,0 +1,13 @@
+$ git branch -a
+* main
+  bug-fix-typo
+  bug-fix-revert
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
+  remotes/origin/bug-fix-typo
+  remotes/origin/bug-fix-revert
+
+$ git branch -v
+* main            29b8461 Fix typo in README
+  bug-fix-typo    29b8461 Fix typo in README
+  bug-fix-revert  30c9572 Revert changes
